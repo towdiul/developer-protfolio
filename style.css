@@ -2,5 +2,16 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 h1{
-    font-size: 50px;
+    font-size: 50px;}
+.orange-color{
+    color: rgb(36, 96, 165);
+}
+#animation_text{
+    position: relative;
+    animation: mymove 5s infinite;
+    animation-timing-function: ease;
+}
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 300px;}
 }
